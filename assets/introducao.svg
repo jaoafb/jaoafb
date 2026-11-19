@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="344" height="36" viewBox="0 0 344 36" role="img" aria-labelledby="titulo">
+  <title id="titulo">Direito, design e código</title>
+  <style>
+    .texto { fill: #23634f; }
+    .revelacao { animation: digitar 2.15s steps(24, end) both; }
+    @keyframes digitar { from { width: 0; } to { width: 246px; } }
+    @media (prefers-color-scheme: dark) { .texto { fill: #8bd6ba; } }
+    @media (prefers-reduced-motion: reduce) { .revelacao { animation: none; } }
+  </style>
+  <defs>
+    <clipPath id="digitar">
+      <rect class="revelacao" x="49" y="0" width="246" height="36" />
+    </clipPath>
+  </defs>
+  <text class="texto" x="50" y="24" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="17" textLength="244" lengthAdjust="spacing" clip-path="url(#digitar)">Direito, design e código</text>
+</svg>
